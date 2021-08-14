@@ -1,0 +1,23 @@
+.main{
+    height: 800px;
+    color: white;
+}
+.vert-allign-center {
+    display: flex;
+    align-items: center;
+}
+.main1{    
+    background: url(../media/main1.jpg) no-repeat center center;
+}
+.main2{
+    background: url(../media/main2.jpg) no-repeat center center;
+}
+.corazon{
+    position: absolute;
+    right: 4px;
+    bottom: 0px;
+}
+
+/* .contt{
+    margin-left: 173px;
+} */
