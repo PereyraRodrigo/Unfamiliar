@@ -10,3 +10,9 @@
     font-size: 17px;
     font-weight: bold;
 }
+
+@media all and (max-width: 767px){
+    .clock{
+        display: none;
+    }
+}
