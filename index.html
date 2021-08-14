@@ -6,14 +6,92 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css'>
   <link rel="stylesheet" href="bootstrapCompiled/css/bootstrap.css">
   <link rel="stylesheet" href="css/estilos.css">
   <title>Proyecto final JS</title>
 </head>
 
 <body>
-  
+
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+       <a class="navbar-brand" href="#">Brand</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+     <div class="collapse navbar-collapse" id="main_nav">
+     <ul class="navbar-nav">
+       <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
+       <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
+       <li class="nav-item"><a class="nav-link" href="#"> Services </a></li>
+       <li class="nav-item dropdown">
+         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Hover me  </a>
+           <ul class="dropdown-menu">
+           <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+           <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+           <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+           </ul>
+       </li>
+     </ul>
+     <ul class="navbar-nav ms-auto">
+       <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+       <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+       <li class="nav-item dropdown">
+         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Dropdown right </a>
+           <ul class="dropdown-menu dropdown-menu-end">
+           <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+           <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+           </ul>
+       </li>
+     </ul>
+     </div> <!-- navbar-collapse.// -->
+  <!--</div> <!-- container-fluid.// -->
+  <!--</nav> -->
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -37,7 +115,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
   <div class="container-fluid">
     <div class="row main fw-bold fs-2">
@@ -46,64 +124,149 @@
     </div>
   </div>
 
-  <div class="container contt justify-content-center">
+  <div class="container contt">
     <p class="fw-bold fs-4 m-4 ms-0">Best Sellers</p>
-      <div class="row justify-content-center">
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Praga Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-          </div>
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="card">
+          <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
+          <a href=""><i class="bi bi-heart corazon"></i></a>
         </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Praga Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-          </div>
+        <div class="card-body ps-0 pb-3">
+          <p class="card-title fs-7 fw-bold">Praga Shirt</p>
+          <p class="mb-0 fs-7 text-muted">$1500</p>
         </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Praga Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Praga Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-          </div>
-        </div> 
       </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
+          <a href=""><i class="bi bi-heart corazon"></i></a>
+        </div>
+        <div class="card-body ps-0 pb-3">
+          <p class="card-title fs-7 fw-bold">Praga Shirt</p>
+          <p class="mb-0 fs-7 text-muted">$1500</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
+          <a href=""><i class="bi bi-heart corazon"></i></a>
+        </div>
+        <div class="card-body ps-0 pb-3">
+          <p class="card-title fs-7 fw-bold">Praga Shirt</p>
+          <p class="mb-0 fs-7 text-muted">$1500</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
+          <a href=""><i class="bi bi-heart corazon"></i></a>
+        </div>
+        <div class="card-body ps-0 pb-3">
+          <p class="card-title fs-7 fw-bold">Praga Shirt</p>
+          <p class="mb-0 fs-7 text-muted">$1500</p>
+        </div>
+      </div>
+    </div>
   </div>
-  
+
+  <div class="container-fluid g-0 para">
+    <div class="parallax">
+      <p class="para-text fw-bold text-center fs-1 d-flex justify-content-center align-items-center">Sale for this fall
+        starts in</p>
+    </div>
+
+    <div class="clock"></div>
+  </div>
 
 
+  <!-- <div class="container">
+    
+  </div> -->
 
 
-
+  <footer class="container-fluid bg-grey py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 ">
+              <div class="logo-part">
+                <img src="https://i.ibb.co/sHZz13b/logo.png" class="w-50 logo-footer">
+                <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
+                <p>Use this tool as test data for an automated system or find your next pen</p>
+              </div>
+            </div>
+            <div class="col-md-6 px-4">
+              <h6> About Company</h6>
+              <p>But horizontal lines can only be a full pixel high.</p>
+              <a href="#" class="btn-footer"> More Info </a><br>
+              <a href="#" class="btn-footer"> Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 px-4">
+              <h6> Help us</h6>
+              <div class="row ">
+                <div class="col-md-6">
+                  <ul>
+                    <li> <a href="#"> Home</a> </li>
+                    <li> <a href="#"> About</a> </li>
+                    <li> <a href="#"> Service</a> </li>
+                    <li> <a href="#"> Team</a> </li>
+                    <li> <a href="#"> Help</a> </li>
+                    <li> <a href="#"> Contact</a> </li>
+                  </ul>
+                </div>
+                <div class="col-md-6 px-4">
+                  <ul>
+                    <li> <a href="#"> Cab Faciliy</a> </li>
+                    <li> <a href="#"> Fax</a> </li>
+                    <li> <a href="#"> Terms</a> </li>
+                    <li> <a href="#"> Policy</a> </li>
+                    <li> <a href="#"> Refunds</a> </li>
+                    <li> <a href="#"> Paypal</a> </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 ">
+              <h6> Newsletter</h6>
+              <div class="social">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </div>
+              <form class="form-footer my-3">
+                <input type="text" placeholder="search here...." name="search">
+                <input type="button" value="Go">
+              </form>
+              <p>That's technology limitation of LCD monitors</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
   <script src="bootstrapCompiled/js/bootstrap.bundle.min.js"></script>
 
-  <script src="scripts.js"></script>
+
+  <!--clock stuff-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://momentjs.com/downloads/moment.js'></script>
+  <script
+    src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data-2012-2022.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js'></script>
+  <!--clock stuff-->
+
+
+  <script src="js/clock.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
