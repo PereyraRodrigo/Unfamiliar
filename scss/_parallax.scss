@@ -12,24 +12,7 @@
   background-size: cover;
   z-index: 1;
 }
-.main-container{
-  background: white;
-  position: relative;
-  z-index: 1;
-}
 
 .temp{
   height: 400px;
-}
-
-.foot{
-  position: sticky;
-  bottom: 0px;
-  left: 0;
-  z-index: -1;
-}
-
-@media all and (max-width: 992px){
-  .main-container{
-  }
 }

@@ -38,6 +38,19 @@ body {
   display: inline-block;
 }
 
+.dropdown-menu-2 {
+  margin-right: auto;
+}
+
+.dropdown-menu-2 > li {
+  display: block;
+}
+
+.usd {
+  display: flex;
+  align-items: center;
+}
+
 .bg-grey {
   background: #292929;
 }
@@ -165,6 +178,22 @@ a:hover {
   bottom: 0px;
 }
 
+a:hover {
+  color: black !important;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.logo {
+  width: 140px;
+}
+
+.icons {
+  font-size: 23px;
+}
+
 /* .contt{
     margin-left: 173px;
 } */
@@ -210,19 +239,6 @@ a:hover {
   z-index: 1;
 }
 
-.main-container {
-  background: white;
-  position: relative;
-  z-index: 1;
-}
-
 .temp {
   height: 400px;
-}
-
-.foot {
-  position: sticky;
-  bottom: 0px;
-  left: 0;
-  z-index: -1;
 }
