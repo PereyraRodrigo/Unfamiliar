@@ -13,6 +13,26 @@
   width: 21%;
 }
 
+/* $spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 3.5,
+  7: $spacer * 4,
+);
+ */
+.p-6 {
+  padding: 3.5rem;
+}
+
+.p-7 {
+  padding: 4rem;
+}
+
 body {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
@@ -172,6 +192,14 @@ a:hover {
   background: url(../media/main2.jpg) no-repeat center center;
 }
 
+.main3 {
+  background: url(../media/main3.jpg) no-repeat center center;
+}
+
+.main4 {
+  background: url(../media/main4.jpg) no-repeat center center;
+}
+
 .corazon {
   position: absolute;
   right: 4px;
@@ -192,6 +220,16 @@ a:hover {
 
 .icons {
   font-size: 23px;
+}
+
+.icons2 {
+  font-size: 36px;
+}
+
+.heroimg {
+  color: white;
+  height: 600px;
+  background: url(../media/hero.jpg) center;
 }
 
 /* .contt{
