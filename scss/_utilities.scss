@@ -4,10 +4,6 @@
 .fs-8{
     font-size: 0.5rem;
 }
-.col-md-2-5{
-    flex: 0 0 auto;
-    width: 21%;
-}
 
 /* $spacer: 1rem;
 $spacers: (
@@ -26,4 +22,11 @@ $spacers: (
 }
 .p-7{
     padding: 4rem;
+}
+
+.oculto{
+    display: none;
+}
+.visible{
+    display: inline-flex;
 }
