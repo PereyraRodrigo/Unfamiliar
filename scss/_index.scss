@@ -46,13 +46,19 @@ a:hover{
     background: url(../media/hero.jpg) center;
 }
 
-/* .contt{
-    margin-left: 173px;
-} */
 .para{
     position: relative;
 }
 .para-text{
     padding-top: 130px;
     color: white;
+}
+.navbarCollapse{
+    align-items: center;
+}
+
+@media (max-width: 576px){
+    .navbarCollapse{
+        align-items: flex-start !important;
+    }
 }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrapCompiled/css/bootstrap.css">
   <link rel="stylesheet" href="css/estilos.css">
   <title>Proyecto final JS</title>
@@ -79,6 +79,36 @@
     </div> <!-- container-fluid.// -->
   </nav>
 
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Your cart</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Feature in progress.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Keep buying</button>
+          <button type="button" class="btn btn-dark">Go to Checkout ></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container pt-5 pb-3">
+    <div class="row">
+      <div class="col-md-2">
+        <select id="selectOptions" class="form-select" aria-label="Default select example">
+          <option selected>Order Items</option>
+          <option value="low">Lower price</option>
+          <option value="high">Higher price</option>
+          <option value="order">Alphabetical order</option>
+        </select>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <div class="row justify-content-center" id="cardscontainer">
 
@@ -155,9 +185,9 @@
 
   <script src="bootstrapCompiled/js/bootstrap.bundle.min.js"></script>
 
-  
-  <script src="jquery/jquery-3.6.0.min.js"></script>
-  
 
-  <script src="js/main.js"></script>
+  <script src="jquery/jquery-3.6.0.min.js"></script>
+
+
+  <script src="js/goods.js"></script>
 </body>

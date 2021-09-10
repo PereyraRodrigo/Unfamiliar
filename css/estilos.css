@@ -20,14 +20,6 @@ $spacers: (
   7: $spacer * 4,
 );
  */
-.p-6 {
-  padding: 3.5rem;
-}
-
-.p-7 {
-  padding: 4rem;
-}
-
 .oculto {
   display: none;
 }
@@ -238,9 +230,6 @@ a:hover {
   background: url(../media/hero.jpg) center;
 }
 
-/* .contt{
-    margin-left: 173px;
-} */
 .para {
   position: relative;
 }
@@ -248,6 +237,16 @@ a:hover {
 .para-text {
   padding-top: 130px;
   color: white;
+}
+
+.navbarCollapse {
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .navbarCollapse {
+    align-items: flex-start !important;
+  }
 }
 
 .clock {
