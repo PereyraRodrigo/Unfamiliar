@@ -1,0 +1,31 @@
+.displayBox{
+    background-color: black;
+}
+.containerDisplay {
+    max-width: 1390px;
+    margin: auto;
+  max-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  img {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+
+    /* -webkit-box-reflect: below 2px
+      linear-gradient(transparent, transparent, #0004); */
+
+    transform-origin: center;
+    transform: perspective(800px) rotateY(25deg);
+    transition: 0.5s;
+  }
+  &:hover img {
+    opacity: 0.3;
+  }
+  img:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+  }
+}

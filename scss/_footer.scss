@@ -13,8 +13,7 @@
 footer {
   color: grey;
 }
-footer p,
-a {
+footer p{
   font-size: 12px;
   font-family: "Roboto", sans-serif;
 }
@@ -51,11 +50,11 @@ footer h6:after {
   outline: none;
   padding-left: 10px;
 }
-::placeholder {
+/* ::placeholder {
   font-size: 10px;
   padding-left: 10px;
   font-style: italic;
-}
+} */
 .form-footer input[type="button"] {
   border: none;
   background: #232323;
@@ -82,10 +81,6 @@ footer ul li a {
   text-decoration: none;
   color: grey;
   text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-  color: #f5f5f5 !important;
 }
 .logo-part {
   border-right: 1px solid grey;
