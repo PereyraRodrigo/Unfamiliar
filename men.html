@@ -87,8 +87,7 @@
           <h5 class="modal-title" id="exampleModalLabel">Your cart</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-          Feature in progress.
+        <div class="modal-body" id="cartS" >
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-light" data-bs-dismiss="modal">Keep buying</button>
@@ -103,16 +102,17 @@
     <div class="col-md-2">
       <select id="selectOptions" class="form-select" aria-label="Default select example">
           <option selected>Sort</option>
-          <option value="">Featured</option>
+          <option value="">Featured |-WIP-|</option>
           <option value="low">Price, low to high</option>
           <option value="high">Price, high to low</option>
           <option value="order">Alphabetically, A-Z</option>
-          <option value="">Alphabetically, Z-A</option>
+          <option value="">Alphabetically, Z-A |-WIP-|</option>
       </select>                
-    </div>
-
+    </div>  
+  </div>
     
-    <div class="ms-auto" style="width: 5.5%;">
+  
+    <!-- <div class="ms-auto" style="width: 5.5%;">
       <div class="dropdown">
         <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           Sort
@@ -124,155 +124,16 @@
           <li><a class="dropdown-item" href="#">Something else here</a></li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
     
-  </div>
+  
 
 
-  <div class="container">
-    <div class="row justify-content-center cards visible">
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main5.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Madrid Pants</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main5.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Barcelona Pants</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main5.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Cataluña Pants</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main5.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Canarias Pants</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-      </div>
+  <div class="container my-5">
+    <div class="row justify-content-center" id="cardscontainerMen">
 
-
-      <div class="row justify-content-center cards">
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main8.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Brazil Jacket</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main8.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Russia Jacket</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main8.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Germany Jacket</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main8.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Italy Jacket</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row justify-content-center cards">
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main6.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Argentina Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main6.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Chile Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main6.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Venezuela Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main6.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Mexico Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-      </div>
+    </div>
   </div>
 
 
@@ -285,146 +146,230 @@
         <button id="shirts" type="button" class="btn btn-light mx-2">Shirts</button>
     </div>
   </div>
-  <div class="container">
-    <div id="allPantCards" class="row justify-content-center cards oculto">
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main5.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
+  <div class="container mb-5">
+    <div id="allPantCards" class="row justify-content-center  cards oculto">
+      <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="media/main10.jpg">
+              <img class="pic-2" src="media/main9.jpg">
+            </a>
+            <ul class="product-links">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+            </ul>
+            <a class="add-to-cart" href="#">Add to cart</a>
           </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Madrid Pants</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main5.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Barcelona Pants</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main5.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Cataluña Pants</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main5.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Canarias Pants</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
+          <div class="product-content">
+            <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+            <div class="price">$83.55</div>
           </div>
         </div>
       </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="media/main9.jpg">
+              <img class="pic-2" src="media/main10.jpg">
+            </a>
+            <ul class="product-links">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+            </ul>
+            <a class="add-to-cart" href="#">Add to cart</a>
+          </div>
+          <div class="product-content">
+            <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+            <div class="price">$83.55</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="media/main10.jpg">
+              <img class="pic-2" src="media/main11.jpg">
+            </a>
+            <ul class="product-links">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+            </ul>
+            <a class="add-to-cart" href="#">Add to cart</a>
+          </div>
+          <div class="product-content">
+            <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+            <div class="price">$83.55</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+        <div class="product-grid">
+          <div class="product-image">
+            <a href="#" class="image">
+              <img class="pic-1" src="media/main11.jpg">
+              <img class="pic-2" src="media/main10.jpg">
+            </a>
+            <ul class="product-links">
+              <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+            </ul>
+            <a class="add-to-cart" href="#">Add to cart</a>
+          </div>
+          <div class="product-content">
+            <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+            <div class="price">$83.55</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
       <div id="allJacketCards" class="row justify-content-center cards oculto">
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Brazil Jacket</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Russia Jacket</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#" class="image">
+                <img class="pic-1" src="media/main5.jpg">
+                <img class="pic-2" src="media/main9.jpg">
+              </a>
+              <ul class="product-links">
+                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+              </ul>
+              <a class="add-to-cart" href="#">Add to cart</a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+              <div class="price">$83.55</div>
+            </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Germany Jacket</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#" class="image">
+                <img class="pic-1" src="media/main6.jpg">
+                <img class="pic-2" src="media/main10.jpg">
+              </a>
+              <ul class="product-links">
+                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+              </ul>
+              <a class="add-to-cart" href="#">Add to cart</a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+              <div class="price">$83.55</div>
+            </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main2.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#" class="image">
+                <img class="pic-1" src="media/main7.jpg">
+                <img class="pic-2" src="media/main11.jpg">
+              </a>
+              <ul class="product-links">
+                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+              </ul>
+              <a class="add-to-cart" href="#">Add to cart</a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+              <div class="price">$83.55</div>
+            </div>
           </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Italy Jacket</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#" class="image">
+                <img class="pic-1" src="media/main11.jpg">
+                <img class="pic-2" src="media/main10.jpg">
+              </a>
+              <ul class="product-links">
+                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+              </ul>
+              <a class="add-to-cart" href="#">Add to cart</a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+              <div class="price">$83.55</div>
+            </div>
           </div>
         </div>
       </div>
 
 
       <div id="allShirtsCards" class="row justify-content-center cards oculto">
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main8.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Argentina Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i class="bi bi-cart-plus-fill"></i>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main8.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Chile Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#" class="image">
+                <img class="pic-1" src="media/main7.jpg">
+                <img class="pic-2" src="media/main5.jpg">
+              </a>
+              <ul class="product-links">
+                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+              </ul>
+              <a class="add-to-cart" href="#">Add to cart</a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+              <div class="price">$83.55</div>
+            </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main8.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
-          </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Venezuela Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#" class="image">
+                <img class="pic-1" src="media/main6.jpg">
+                <img class="pic-2" src="media/main8.jpg">
+              </a>
+              <ul class="product-links">
+                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+              </ul>
+              <a class="add-to-cart" href="#">Add to cart</a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+              <div class="price">$83.55</div>
+            </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="media/main8.jpg" class="card-img-top img-fluid" alt="...">
-            <a href=""><i class="bi bi-heart corazon"></i></a>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#" class="image">
+                <img class="pic-1" src="media/main6.jpg">
+                <img class="pic-2" src="media/main7.jpg">
+              </a>
+              <ul class="product-links">
+                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+              </ul>
+              <a class="add-to-cart" href="#">Add to cart</a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+              <div class="price">$83.55</div>
+            </div>
           </div>
-          <div class="card-body ps-0 pb-3">
-            <p class="card-title fs-7 fw-bold">Mexico Shirt</p>
-            <p class="mb-0 fs-7 text-muted">$1500</p>
-            <i id ="shop" class="bi bi-cart-plus-fill"></i>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#" class="image">
+                <img class="pic-1" src="media/main5.jpg">
+                <img class="pic-2" src="media/main8.jpg">
+              </a>
+              <ul class="product-links">
+                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+              </ul>
+              <a class="add-to-cart" href="#">Add to cart</a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+              <div class="price">$83.55</div>
+            </div>
           </div>
         </div>
       </div>
@@ -500,7 +445,8 @@
   
   <script src="bootstrapCompiled/js/bootstrap.bundle.min.js"></script>
 
-  <script src="js/script.js"></script>
+  <script src="jquery/jquery-3.6.0.min.js"></script>
+  <script src="js/men.js"></script>
 
   
   
