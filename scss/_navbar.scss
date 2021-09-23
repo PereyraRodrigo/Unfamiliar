@@ -5,15 +5,14 @@
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }	
 
+.navbarFont{
+	font-size: 12px;
+	 font-family: "Roboto", sans-serif;
+}
+
 .dropdown-menu {
     margin-right:-1000px;
 }
-
-.navbarFont{
-	font-size: 12px;
- 	font-family: "Roboto", sans-serif;
-}
-
 .dropdown-menu > li {
     display: inline-block;
 }
@@ -27,4 +26,48 @@
 .usd{
 	display: flex;
 	align-items: center;
+}
+@media (max-width: 576px){
+	.dropdown-menu {
+		margin-right:auto;
+	}
+}
+
+.tempnavbar{
+	position: absolute !important;
+}
+
+.logo{
+    width: 140px;
+}
+.navbar-brand{
+    margin-right: 0;
+}
+.icons{
+    font-size: 23px;
+}
+
+@media (max-width: 576px){
+    .customNavbar {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        li{
+            padding-left: 9px;
+        }
+    }
+    .icons{
+        font-size: 19px;
+    }
+    .logo{
+        
+    }
+}
+
+@media (min-width: 576px){
+    .navbarCollapse {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+    }
 }
