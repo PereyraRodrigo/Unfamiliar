@@ -1,0 +1,83 @@
+.pushbar{
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    /* overflow: scroll; */
+    .btn-close.left{
+        text-align: left;
+    }
+    &.pushbar-cart{
+        background: #000;
+        width: 375px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .btn-cerrar button{
+        background: none;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    &__title{
+        font-size: 22px;
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(112,112,112, .60);
+        margin-bottom: 20px;
+    }
+    &__item{
+        display: flex;
+        /* justify-content: space-between; */
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(112,112,112, .60);
+        img{
+            width: 37%;
+            /* max-width: 85px; */
+            margin-right: 22px;
+        }
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 165px;
+    }
+    &__name{
+        font-size: 19px;
+        color: #AAAAAA;
+        margin-bottom: 2px;
+    }
+    &__price{
+        font-size: 15px;
+    }
+    &__interaction{
+        display: flex !important;
+        flex-direction: row-reverse;
+        justify-content: flex-end;    
+        i{
+            font-size: 24px;
+        }
+    }
+    &__amount{
+        margin: 0 5px;
+    }
+    &__delete{
+        font-size: 14px;
+        text-align: right;
+    }
+    &__total{
+        margin: 40px 0 20px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__totalPrice{
+        color: #AAAAAA;
+    }
+    &__checkout{
+        position: absolute;
+        right: 14px;
+    }
+}
+.bi-file-plus, .bi-file-minus{
+    cursor: pointer;
+}

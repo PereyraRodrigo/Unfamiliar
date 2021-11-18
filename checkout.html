@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrapCompiled/css/bootstrap.css">
+  <link rel="stylesheet" href="js/pushbar/pushbar.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Proyecto final JS</title>
+</head>
+<body>
+
+  <nav class="navbarFont navbar sticky-top navbar-expand-sm navbar-light bg-white">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--logo mobile version-->
+      <!-- <a class="navbar-brand" href="index.html">
+        <img class="logo d-block d-sm-none" src="media/logo.svg" alt="Company Logo">
+      </a>
+            
+      <ul class="navbar-nav customNavbar d-block d-sm-none">
+
+          <li class="nav-item"><a class="nav-link" href="#" data-pushbar-target="pushbar-cart"><i
+                class="bi bi-cart icons cartIcon"></i></a></li>
+      </ul> -->
+      <!--logo mobile version-->
+
+      
+      <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo03">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="men.html" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Men
+            </a>
+            <ul class="dropdown-menu navbarFont" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="men.html">New Arrivals</a></li>
+              <li><a class="dropdown-item" href="men.html">T-Shirts</a></li>
+              <li><a class="dropdown-item" href="men.html">Pants</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Women
+            </a>
+            <ul class="dropdown-menu navbarFont" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="women.html">New Arrivals</a></li>
+              <li><a class="dropdown-item" href="women.html">T-shirts</a></li>
+              <li><a class="dropdown-item" href="women.html">Pants</a></li>
+            </ul>
+          </li>          
+        </ul>
+        <!--logo desktop version-->
+        <a class="navbar-brand" href="index.html">
+          <img class="logo d-none d-sm-block" src="media/logo.svg" alt="Company Logo">
+        </a>
+        
+        <ul class="navbar-nav navbarCollapse d-flex align-items-center d-none d-sm-block ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              USD
+            </a>
+            <ul class="dropdown-menu dropdown-menu-2 navbarFont" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">ARS</a></li>
+              <li><a class="dropdown-item" href="#">EUR</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-heart icons"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person icons"></i></a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#" data-pushbar-target="pushbar-cart">
+            <i class="bi bi-cart cart cartIcon"></i></a>
+          </li> -->
+          <li class="nav-item cart-btn" data-pushbar-target="pushbar-cart">
+            <span class="nav-icon">
+              <i class="bi bi-cart icons"></i>
+            </span>
+            <div class="cart-items">0</div>
+          </li>
+          
+          <!-- <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                class="bi bi-cart cart cartIcon"></i></a></li> -->
+        </ul>
+        <!--logo desktop version-->
+
+        
+        <ul class="navbar-nav customNavbar d-block d-sm-none">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              USD
+            </a>
+            <ul class="dropdown-menu navbarFont tempnavbar" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">ARS</a></li>
+              <li><a class="dropdown-item" href="#">EUR</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-heart icons"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person icons"></i></a></li>          
+      </ul>
+
+      </div> <!-- navbar-collapse.// -->
+    </div> <!-- container-fluid.// -->
+  </nav> 
+
+    <!-- <div class="card my-5 cartCheckout">
+        <div class="row">
+            <div class="col-md-8 cartt">
+                <div class="title">
+                    <div class="row">
+                        <div class="col">
+                            <h4><b>Shopping Cartt</b></h4>
+                        </div>
+                        <div class="col align-self-center text-right text-muted">3 items</div>
+                    </div>
+                </div>
+                <div class="row border-top border-bottom">
+                    <div class="row mainn align-items-center">
+                        <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/1GrakTl.jpg"></div>
+                        <div class="col">
+                            <div class="row text-muted">Shirt</div>
+                            <div class="row">Cotton T-shirt</div>
+                        </div>
+                        <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
+                        <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row mainn align-items-center">
+                        <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/ba3tvGm.jpg"></div>
+                        <div class="col">
+                            <div class="row text-muted">Shirt</div>
+                            <div class="row">Cotton T-shirt</div>
+                        </div>
+                        <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
+                        <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
+                    </div>
+                </div>
+                <div class="row border-top border-bottom">
+                    <div class="row mainn align-items-center">
+                        <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/pHQ3xT3.jpg"></div>
+                        <div class="col">
+                            <div class="row text-muted">Shirt</div>
+                            <div class="row">Cotton T-shirt</div>
+                        </div>
+                        <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
+                        <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
+                    </div>
+                </div>
+                <div class="back-to-shop"><a href="#">&leftarrow;</a><span class="text-muted">Back to shop</span></div>
+            </div>
+            <div class="col-md-4 summary">
+                <div>
+                    <h5><b>Summary</b></h5>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col" style="padding-left:0;">ITEMS 3</div>
+                    <div class="col text-right">&euro; 132.00</div>
+                </div>
+                <form>
+                    <p>SHIPPING</p> <select>
+                        <option class="text-muted">Standard-Delivery- &euro;5.00</option>
+                    </select>
+                    <p>GIVE CODE</p> <input id="code" placeholder="Enter your code">
+                </form>
+                <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                    <div class="col">TOTAL PRICE</div>
+                    <div class="col text-right">&euro; 137.00</div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+  
+
+    <div class="container my-5">
+      <p class="fs-1 fw-bold">Checkout</p>
+      <p>Give us your information and we will make sure your products arrive safely to your home!</p>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Address</label>
+        <input class="form-control" id="exampleFormControlInput1" placeholder="Adress 12345">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Any information we should know about?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <input id="btnBuy" type="submit" value="Finalizar Compra" />
+    </div>
+
+
+    <footer class="foot container-fluid bg-grey py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="logo-part">
+                    <img src="media/logo.png" class="w-50 logo-footer">
+                    <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
+                  </div>
+                </div>
+                <div class="col-md-6 px-4">
+                  <h6> About Company</h6>
+                  <a href="#" class="btn-footer"> More Info </a><br>
+                  <a href="#" class="btn-footer"> Contact Us</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6 px-4">
+                  <h6> Help us</h6>
+                  <div class="row ">
+                    <div class="col-md-6">
+                      <ul>
+                        <li> <a href="#"> Home</a> </li>
+                        <li> <a href="#"> About</a> </li>
+                        <li> <a href="#"> Service</a> </li>
+                        <li> <a href="#"> Team</a> </li>
+                        <li> <a href="#"> Help</a> </li>
+                        <li> <a href="#"> Contact</a> </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 px-4">
+                      <ul>
+                        <li> <a href="#"> Cab Faciliy</a> </li>
+                        <li> <a href="#"> Fax</a> </li>
+                        <li> <a href="#"> Terms</a> </li>
+                        <li> <a href="#"> Policy</a> </li>
+                        <li> <a href="#"> Refunds</a> </li>
+                        <li> <a href="#"> Paypal</a> </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 ">
+                  <h6> Newsletter</h6>
+                  <div class="social">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                  </div>
+                  <!-- <form class="form-footer my-3">
+                    <input type="text" placeholder="search here...." name="search">
+                    <input type="button" value="Go">
+                  </form> -->
+                  <p>That's technology limitation of LCD monitors</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="bootstrapCompiled/js/bootstrap.bundle.min.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script src="js/checkout.js"></script>
+    <script src="js/pushbar/pushbar.js"></script>
+    <script type="text/javascript">
+      const pushbar = new Pushbar({
+            blur:true,
+            overlay:true,
+          });
+    </script>
+</body>
+</html>

@@ -8,7 +8,7 @@ let cartItems = document.querySelector(".cart-items")
 
 let cartContent = document.querySelector("#cartContainer")
 
-let productsDOM = document.querySelector("#newArrivals")
+let productsDOM = document.querySelector("#womenList")
 
 
 //carrito
@@ -23,7 +23,7 @@ class Products{
         try {
             let result = await fetch("../json/unfamiliarproducts.json")
             let data = await result.json();
-            let products = data.newArrivals;
+            let products = data.women;
             return products
         } catch (error) {
             console.log("error");
@@ -64,8 +64,10 @@ class UI{
         buttonsDOM = buttons;
         buttons.forEach(button => {
             let id = button.dataset.id;
-                       
+            let inCart = cart.find(item => item.id === id);
+                    
             button.addEventListener('click', (event) => {
+
                 // obtener producto de productos
                 //amount tiene en cuenta la cantidad
                 let cartItem = { ...Storage.getProduct(id), amount: 1 };
@@ -186,7 +188,8 @@ class UI{
         cart = cart.filter(item => item.id !== id);
         this.setCartValues(cart);
         Storage.saveCart(cart);
-        this.getBoton(id);        
+        this.getBoton(id);
+        
     }
     getBoton(id) {
         return buttonsDOM.find(button => button.dataset.id === id)

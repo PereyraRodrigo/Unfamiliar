@@ -40,21 +40,23 @@
 /* a:hover{
     color: black !important;
 } */
-.navbar-brand{
-    margin-right: 0;
-}
 
-
-.icons{
-    font-size: 23px;
-}
 .icons2{
     font-size: 36px;
 }
 .heroimg{
     color: white;
-    height: 600px;
+    height: 790px;
     background: url(../media/hero.jpg) center;
+}
+.heroimgMen{
+    color: white;
+    height: 395px;
+    background: url(../media/heromen2.jpg) center;
+}
+.heroimgWomen{
+    height: 395px;
+    background: url(../media/herowomen.jpg) center;
 }
 
 .para{
@@ -64,9 +66,6 @@
     padding-top: 130px;
     color: white;
 }
-
-
-
 
 /* @media (max-width: 576px){
     .navbarCollapse{
