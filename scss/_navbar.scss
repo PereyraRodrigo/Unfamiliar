@@ -1,6 +1,6 @@
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
+	/* .navbar .nav-item:hover .nav-link{   } */
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }	
@@ -34,11 +34,6 @@
 		margin-right:auto;
 	}
 }
-
-/* .tempnavbar{
-	position: absolute !important;
-} */
-
 .logo{
     width: 140px;
 }
@@ -94,10 +89,6 @@
         font-size: 11px;
     }
 }
-/* .customNavbar:first-child{
-	align-self: ;
-} */
-
 @media (min-width: 576px){
     .navbarCollapse {
         display: flex !important;
@@ -105,3 +96,8 @@
         align-items: center !important;
     }    
 }
+
+.dropdown-toggle::after {
+    opacity: 0 !important;
+}
+//oculta triangulo de dropdown en Men, Women,Collections
