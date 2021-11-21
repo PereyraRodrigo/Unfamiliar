@@ -83,7 +83,7 @@
           <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-heart icons"></i></a></li>
           <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person icons"></i></a></li>
           <li class="nav-item cart-btn" data-pushbar-target="pushbar-cart">
-            <span class="nav-icon">
+            <span class="nav-link">
               <i class="bi bi-cart icons"></i>
             </span>
             <div class="cart-items">0</div>
@@ -182,7 +182,7 @@
                 <img class="pic-2" src="media/main9.jpg">
               </a>
               <ul class="product-links">
-                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#wishlistModal" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
               </ul>
               <a class="add-to-cart" href="#">Add to cart</a>
             </div>
@@ -345,7 +345,25 @@
     </div>
   </footer>
 
-
+  <!--MODAL start-->
+  <div class="modal fade" id="wishlistModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">Add to wishlist</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          You must have an Unfamiliar account and be signed in to save items to your wishlist
+        </div>
+        <div class="modal-footer d-flex flex-column">
+          <button class="button button--hyperion mb-2"><span><span>Sign in</span></span></button>
+          <button class="button button--greip"><span><span>Create an account</span></span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL end-->
   
   
   <!--clock stuff-->
