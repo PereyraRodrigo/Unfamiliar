@@ -72,17 +72,16 @@ body {
   display: inline-block;
 }
 
+.usd .dropdown-toggle::after {
+  opacity: 1 !important;
+}
+
 .dropdown-menu-2 {
   margin-right: auto;
 }
 
 .dropdown-menu-2 > li {
   display: block;
-}
-
-.usd {
-  display: flex;
-  align-items: center;
 }
 
 @media (max-width: 576px) {
@@ -279,18 +278,19 @@ footer ul li a {
   background: url(../media/main2.jpg) no-repeat center center;
 }
 
-.sectionContainer {
-  transition: 2s;
-}
-
 .sectionContainer:hover a {
-  opacity: 0.3;
-  transition: 0.5s;
+  opacity: 0.5;
 }
 
 .sectionContainer a:hover {
   opacity: 1;
-  transition: 0.5s;
+}
+
+.sectionContainer a {
+  opacity: 1;
+  transition: opacity .60s ease-in-out;
+  -moz-transition: opacity .60s ease-in-out;
+  -webkit-transition: opacity .60s ease-in-out;
 }
 
 .main3 {
@@ -430,17 +430,22 @@ footer ul li a {
 }
 
 .collections {
-  font-size: 82px;
+  font-size: 62px;
   padding-top: 155px;
+}
+
+.temp {
+  height: 270px;
+  background-color: white;
 }
 
 .tempCollections {
   height: 500px;
-  background-color: black;
+  background-color: white;
 }
 
 .displayBox {
-  background-color: black;
+  background-color: white;
 }
 
 .containerDisplay {
@@ -465,7 +470,7 @@ footer ul li a {
 }
 
 .containerDisplay:hover img {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .containerDisplay img:hover {

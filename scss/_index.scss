@@ -13,18 +13,20 @@
 .main2{
     background: url(../media/main2.jpg) no-repeat center center;
 }
-.sectionContainer{  
-    transition: 2s;
+.sectionContainer{
     &:hover a {
-      opacity: 0.3;
-      transition: 0.5s
+      opacity: 0.5; 
     }
     a:hover {
       opacity: 1;
-      transition: 0.5s
+    }
+    a{
+        opacity: 1;
+        transition: opacity .60s ease-in-out;
+        -moz-transition: opacity .60s ease-in-out;
+        -webkit-transition: opacity .60s ease-in-out;
     }
 }
-  
 .main3{
     background: url(../media/main3.jpg) no-repeat center center;
 }

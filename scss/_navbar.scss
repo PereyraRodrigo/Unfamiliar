@@ -11,23 +11,22 @@
 	font-size: 12px;
 	font-family: "Roboto", sans-serif;
 }
-
 .dropdown-menu {
     margin-right:-1000px;
 }
 .dropdown-menu > li {
     display: inline-block;
 }
+.usd .dropdown-toggle::after {
 
+    opacity: 1 !important;
+
+}
 .dropdown-menu-2{
 	margin-right: auto;
 }
 .dropdown-menu-2 > li {
     display: block;
-}
-.usd{
-	display: flex;
-	align-items: center;
 }
 @media (max-width: 576px){
 	.dropdown-menu {

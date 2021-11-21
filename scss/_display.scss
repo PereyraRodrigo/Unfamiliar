@@ -1,13 +1,17 @@
 .collections{
-  font-size: 82px;
+  font-size: 62px;
   padding-top: 155px;
+}
+.temp{
+  height: 270px;
+  background-color: white;
 }
 .tempCollections{
   height: 500px;
-  background-color: black;
+  background-color: white;
 }
 .displayBox{
-    background-color: black;
+    background-color: white;
 }
 .containerDisplay {
     max-width: 1390px;
@@ -30,7 +34,7 @@
       transition: 0.5s;
     }
     &:hover img {
-      opacity: 0.3;
+      opacity: 0.5;
     }
     img:hover {
       cursor: pointer;
