@@ -128,7 +128,7 @@ body {
         }  */
   }
   .customNavbar i {
-    padding-left: 9px;
+    padding: 3px;
   }
   .customNavbar li:nth-child(1) {
     padding-left: 0;
@@ -140,8 +140,8 @@ body {
     margin: auto !important;
   }
   .cart-items {
-    top: 4px;
-    right: 3px;
+    top: 5px;
+    right: 6px;
     font-size: 11px;
   }
 }
@@ -426,19 +426,18 @@ footer ul li a {
 
 .collections {
   font-size: 62px;
-  /* padding-top: 155px; */
-  padding-top: 25px;
+  padding-top: 135px;
 }
 
 .temp {
   /* height: 270px; */
-  height: 210px;
+  height: 250px;
   background-color: white;
 }
 
 .tempCollections {
   /* height: 500px; */
-  height: 380px;
+  height: 450px;
   background-color: white;
 }
 

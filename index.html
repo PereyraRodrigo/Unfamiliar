@@ -80,7 +80,7 @@
               <li><a class="dropdown-item" href="#">EUR</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-heart icons"></i></a></li>
+          <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#wishlistModal" href="#"><i class="bi bi-heart icons"></i></a></li>
           <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person icons"></i></a></li>
           <li class="nav-item cart-btn" data-pushbar-target="pushbar-cart">
             <span class="nav-link">
@@ -105,7 +105,7 @@
       </div>
     </div>
 
-    <div class="container p-5 text-center d-flex justify-content-between">
+    <div class="container p-5 mb-5 text-center d-flex justify-content-between">
       <div class="row">
         <div class="col-sm-4">
           <i class="bi bi-brightness-high-fill icons2"></i>
@@ -122,10 +122,19 @@
           <p class="fs-4 fw-bold">Worldwide Shipping</p>
           <p>Free worldwide shipping on all orders over $95</p>
         </div>
-      </div>
-      
-      
+      </div>     
     </div>
+
+    <section class="container-fluid">
+      <div class="main row fw-bold fs-2 sectionContainer">
+          <a href="men.html" class="col-sm-6 col-lg-6 d-flex align-items-center justify-content-center main1 text-decoration-none">
+            <p>Men</p>
+          </a>
+          <a href="women.html" class="col-sm-6 col-lg-6 d-flex align-items-center justify-content-center main2 text-decoration-none">
+            <p>Women</p>
+          </a>
+      </div>
+    </section>
 
     <div class="container-fluid tempCollections ">
       <p class="collections pb-5 text-dark fw-bold text-center mb-0">Collections</p>
@@ -150,112 +159,21 @@
     <div class="container-fluid temp"></div>    
   </div>
 
-    <div class="container contt py-5">
-      <p class="fw-bold fs-4 m-4 ms-0">New Arrivals</p>
-      <div class="row justify-content-center" id="newArrivals">
-
-      </div>
+  <div class="container-fluid g-0 para">
+    <div class="parallax">
+      <p class="para-text fw-bold text-center fs-1 d-flex justify-content-center align-items-center">Sale for this fall starts in</p>
     </div>
+    <div class="clock"></div>
+  </div>
 
-    
-    
-    <section class="container-fluid">
-      <div class="main row fw-bold fs-2 sectionContainer">
-          <a href="men.html" class="col-sm-6 col-lg-6 d-flex align-items-center justify-content-center main1 text-decoration-none">
-            <p>Men</p>
-          </a>
-          <a href="women.html" class="col-sm-6 col-lg-6 d-flex align-items-center justify-content-center main2 text-decoration-none">
-            <p>Women</p>
-          </a>
-      </div>
-    </section>
-
-    <!--TEMPORAL-->
-    <div class="container contt py-5">
-      <p class="fw-bold fs-4 m-4 ms-0">Best Sellers</p>
-      <div class="row justify-content-center">
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="product-grid">
-            <div class="product-image">
-              <a href="#" class="image">
-                <img class="pic-1" src="media/main10.jpg">
-                <img class="pic-2" src="media/main9.jpg">
-              </a>
-              <ul class="product-links">
-                <li><a href="#" data-bs-toggle="modal" data-bs-target="#wishlistModal" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
-              </ul>
-              <a class="add-to-cart" href="#">Add to cart</a>
-            </div>
-            <div class="product-content">
-              <h3 class="title"><a href="#">Paris shirt</a></h3>
-              <div class="price">$3200</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="product-grid">
-            <div class="product-image">
-              <a href="#" class="image">
-                <img class="pic-1" src="media/main9.jpg">
-                <img class="pic-2" src="media/main10.jpg">
-              </a>
-              <ul class="product-links">
-                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
-              </ul>
-              <a class="add-to-cart" href="#">Add to cart</a>
-            </div>
-            <div class="product-content">
-              <h3 class="title"><a href="#">Boston Shirt</a></h3>
-              <div class="price">$1200</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="product-grid">
-            <div class="product-image">
-              <a href="#" class="image">
-                <img class="pic-1" src="media/main10.jpg">
-                <img class="pic-2" src="media/main11.jpg">
-              </a>
-              <ul class="product-links">
-                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
-              </ul>
-              <a class="add-to-cart" href="#">Add to cart</a>
-            </div>
-            <div class="product-content">
-              <h3 class="title"><a href="#">Múnich Shirt</a></h3>
-              <div class="price">$700</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="product-grid">
-            <div class="product-image">
-              <a href="#" class="image">
-                <img class="pic-1" src="media/main11.jpg">
-                <img class="pic-2" src="media/main10.jpg">
-              </a>
-              <ul class="product-links">
-                <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
-              </ul>
-              <a class="add-to-cart" href="#">Add to cart</a>
-            </div>
-            <div class="product-content">
-              <h3 class="title"><a href="#">Tokio Shirt</a></h3>
-              <div class="price">$850</div>
-            </div>
-          </div>
-        </div>
-      </div>
+  <!--cards rendered in index.js-->
+  <div class="container contt py-5">
+    <p class="fw-bold fs-4 m-4 ms-0">New Arrivals</p>
+    <div class="row justify-content-center" id="newArrivals">
+      
     </div>
-    <!--TEMPORAL-->
-
-    <div class="container-fluid g-0 para">
-      <div class="parallax">
-        <p class="para-text fw-bold text-center fs-1 d-flex justify-content-center align-items-center">Sale for this fall starts in</p>
-      </div>
-      <div class="clock"></div>
-    </div>    
+  </div>
+  <!--cards rendered in index.js-->
 
 
   <div data-pushbar-id="pushbar-cart" data-pushbar-direction="right" class="pushbar pushbar-cart">
@@ -287,7 +205,7 @@
           <div class="row">
             <div class="col-md-6 ">
               <div class="logo-part">
-                <img src="media/logo.png" class="w-50 logo-footer">
+                <img src="media/logo.svg" class="w-50 logo-footer">
                 <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
                 <p>Use this tool as test data for an automated system or find your next pen</p>
               </div>
@@ -345,7 +263,7 @@
     </div>
   </footer>
 
-  <!--MODAL start-->
+  <!--MODAL wishlist start-->
   <div class="modal fade" id="wishlistModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -363,7 +281,7 @@
       </div>
     </div>
   </div>
-  <!--MODAL end-->
+  <!--MODAL wishlist end-->
   
   
   <!--clock stuff-->

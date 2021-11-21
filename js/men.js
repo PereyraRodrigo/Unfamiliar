@@ -45,7 +45,7 @@ class UI{
                             <img class="pic-2" src="${product.image2}">
                         </a>
                         <ul class="product-links">
-                            <li><a href="#" data-tip="Add to Wishlist"><i class="bi bi-heart"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist" data-bs-toggle="modal" data-bs-target="#wishlistModal"><i class="bi bi-heart"></i></a></li>
                         </ul>
                         <button data-id="${product.id}" class="add-to-cart" href="#">Add to cart</button>
                     </div>
