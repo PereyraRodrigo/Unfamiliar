@@ -431,16 +431,19 @@ footer ul li a {
 
 .collections {
   font-size: 62px;
-  padding-top: 155px;
+  /* padding-top: 155px; */
+  padding-top: 25px;
 }
 
 .temp {
-  height: 270px;
+  /* height: 270px; */
+  height: 210px;
   background-color: white;
 }
 
 .tempCollections {
-  height: 500px;
+  /* height: 500px; */
+  height: 380px;
   background-color: white;
 }
 
