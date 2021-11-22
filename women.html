@@ -15,14 +15,13 @@
 <body>
   
   <nav class="navbarFont navbar sticky-top navbar-expand-sm navbar-light bg-white">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container-fluid"> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button>            
       <!--logo mobile visible version-->
       <a class="navbar-brand" href="index.html">
-        <img class="logo d-sm-none d-sm-block" src="media/logo.svg" alt="Company Logo">
+        <img class="logo d-sm-none d-sm-block" src="media/logo.svg" alt="Unfamiliar Logo">
       </a>
       <!--logo mobile visible version-->
 
@@ -56,39 +55,39 @@
               Collections
             </a>
             <ul class="dropdown-menu navbarFont" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="goods.html">Collection1</a></li>
-              <li><a class="dropdown-item" href="#">Collection2</a></li>
-              <li><a class="dropdown-item" href="goods.html">Collection3</a></li>
+              <li><a class="dropdown-item" href="collection1.html">Collection1</a></li>
+              <li><a class="dropdown-item" href="collection1.html">Collection2</a></li>
+              <li><a class="dropdown-item" href="collection1.html">Collection3</a></li>
             </ul>
           </li>
         </ul>
         <!--logo desktop visible version-->
         <a class="navbar-brand d-none d-sm-block mx-auto" href="index.html">
-          <img class="logo" src="media/logo.svg" alt="Company Logo">
+          <img class="logo" src="media/logo.svg" alt="Unfamiliar Logo">
         </a>
         <!--logo desktop visible version-->
 
       </div> <!-- navbar-collapse.// -->
       <ul class="navbar-nav customNavbar navbarCollapse">
-        <li class="nav-item dropdown d-none d-sm-block">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            USD
-          </a>
-          <ul class="dropdown-menu dropdown-menu-2 navbarFont" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">ARS</a></li>
-            <li><a class="dropdown-item" href="#">EUR</a></li>
-          </ul>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-heart icons"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person icons"></i></a></li>
-        <li class="nav-item cart-btn" data-pushbar-target="pushbar-cart">
-          <span class="nav-icon">
-            <i class="bi bi-cart icons"></i>
-          </span>
-          <div class="cart-items">0</div>
-        </li>
-      </ul>
+          <li class="nav-item usd dropdown d-none d-sm-block">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              USD
+            </a>
+            <ul class="dropdown-menu dropdown-menu-2 navbarFont" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">ARS</a></li>
+              <li><a class="dropdown-item" href="#">EUR</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#wishlistModal" href="#"><i class="bi bi-heart icons"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person icons"></i></a></li>
+          <li class="nav-item cart-btn" data-pushbar-target="pushbar-cart">
+            <span class="nav-link">
+              <i class="bi bi-cart icons"></i>
+            </span>
+            <div class="cart-items">0</div>
+          </li>
+        </ul>
     </div> <!-- container-fluid.// -->
   </nav>
 

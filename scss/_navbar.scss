@@ -35,6 +35,8 @@
 }
 .logo{
     width: 140px;
+    padding-bottom: 4px;
+    margin-left: 13px;
 }
 .navbar-brand{
     margin-right: 0;
@@ -87,6 +89,10 @@
         right: 6px;
         font-size: 11px;
     }
+    /* .logo{
+        padding-bottom: 4px;
+        margin-left: 13px;
+    } */
 }
 @media (min-width: 576px){
     .navbarCollapse {

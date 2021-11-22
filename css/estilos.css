@@ -87,6 +87,8 @@ body {
 
 .logo {
   width: 140px;
+  padding-bottom: 4px;
+  margin-left: 13px;
 }
 
 .navbar-brand {
@@ -144,6 +146,10 @@ body {
     right: 6px;
     font-size: 11px;
   }
+  /* .logo{
+        padding-bottom: 4px;
+        margin-left: 13px;
+    } */
 }
 
 @media (min-width: 576px) {
@@ -302,9 +308,6 @@ footer ul li a {
   bottom: 0px;
 }
 
-/* a:hover{
-    color: black !important;
-} */
 .icons2 {
   font-size: 36px;
 }
@@ -326,25 +329,6 @@ footer ul li a {
   background: url(../media/herowomen.jpg) center;
 }
 
-.para {
-  position: relative;
-}
-
-.para-text {
-  padding-top: 130px;
-  color: white;
-}
-
-/* @media (max-width: 576px){
-    .navbarCollapse{
-        align-items: flex-start !important;
-    }
-} */
-/* @media (min-width: 576px){
-    .custom-d-sm-block{
-        display: block;
-    }
-} */
 .clock {
   width: 650px;
   position: absolute;
@@ -359,10 +343,13 @@ footer ul li a {
   font-weight: bold;
 }
 
-@media all and (max-width: 767px) {
-  .clock {
-    display: none;
-  }
+.para {
+  position: relative;
+}
+
+.para-text {
+  padding-top: 130px;
+  color: white;
 }
 
 .open-button {
@@ -436,7 +423,6 @@ footer ul li a {
 }
 
 .tempCollections {
-  /* height: 500px; */
   height: 450px;
   background-color: white;
 }
@@ -483,7 +469,6 @@ footer ul li a {
 
 .containerDisplayMobile div {
   height: 500px;
-  margin-bottom: 25px;
 }
 
 .containerDisplayMobile :nth-child(3) {
@@ -491,7 +476,7 @@ footer ul li a {
 }
 
 .containerDisplayMobile:hover div {
-  opacity: 0.3;
+  opacity: 0.7;
   transition: 0.5s;
 }
 
@@ -512,12 +497,21 @@ footer ul li a {
   background: url(../media/main3.jpg) no-repeat center center;
 }
 
-@media (max-width: 768px) {
-  .tempCollections {
-    height: 440px;
+@media all and (max-width: 768px) {
+  .temp {
+    height: 0;
   }
   .collections {
-    padding-top: 265px;
+    padding-top: 165px;
+  }
+  .tempCollections {
+    height: 260px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .collections {
+    font-size: 52px;
   }
 }
 
