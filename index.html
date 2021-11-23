@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Not just fashion, but design. Everything we do in Unfamiliar is meant to be remembered. It’s all about style. We create clothing with minimal designs and maximum impact.">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
   <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon"> 
@@ -81,7 +82,7 @@
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#wishlistModal" href="#"><i class="bi bi-heart icons"></i></a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person icons"></i></a></li>
+          <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#accountModal" href="#"><i class="bi bi-person icons"></i></a></li>
           <li class="nav-item cart-btn" data-pushbar-target="pushbar-cart">
             <span class="nav-link">
               <i class="bi bi-cart icons"></i>
@@ -198,91 +199,96 @@
   </div>
 
 
-  <footer class="foot container-fluid bg-grey py-5">
+  <footer class="bg-grey py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-md-6 ">
-              <div class="logo-part">
-                <img src="media/logo.svg" class="w-50 logo-footer">
-                <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
-                <p>Use this tool as test data for an automated system or find your next pen</p>
-              </div>
-            </div>
-            <div class="col-md-6 px-4">
-              <h6> About Company</h6>
-              <p>But horizontal lines can only be a full pixel high.</p>
-              <a href="#" class="btn-footer"> More Info </a><br>
-              <a href="#" class="btn-footer"> Contact Us</a>
-            </div>
+        <div class="col-md-3">
+          <div class="logo-part d-flex flex-column justify-content-evenly">
+            <img src="media/logo.png" class="logo-footer">
+            <!-- <p class="mb-0">7637 Laurel Dr. King Of Prussia, PA 19406</p> -->
+            <p class="mb-0 footerSize">Not just fashion, but <b>design.</b> <br> <i> It’s all about style.</i></p>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-md-6 px-4">
-              <h6> Help us</h6>
-              <div class="row ">
-                <div class="col-md-6">
-                  <ul>
-                    <li> <a href="#"> Home</a> </li>
-                    <li> <a href="#"> About</a> </li>
-                    <li> <a href="#"> Service</a> </li>
-                    <li> <a href="#"> Team</a> </li>
-                    <li> <a href="#"> Help</a> </li>
-                    <li> <a href="#"> Contact</a> </li>
-                  </ul>
-                </div>
-                <div class="col-md-6 px-4">
-                  <ul>
-                    <li> <a href="#"> Cab Faciliy</a> </li>
-                    <li> <a href="#"> Fax</a> </li>
-                    <li> <a href="#"> Terms</a> </li>
-                    <li> <a href="#"> Policy</a> </li>
-                    <li> <a href="#"> Refunds</a> </li>
-                    <li> <a href="#"> Paypal</a> </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 ">
-              <h6> Newsletter</h6>
-              <div class="social">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-              </div>
-              <!-- <form class="form-footer my-3">
-                <input type="text" placeholder="search here...." name="search">
-                <input type="button" value="Go">
-              </form> -->
-              <p>That's technology limitation of LCD monitors</p>
-            </div>
+        <div class="col-md-3">
+            <p class="footerFont"> About Company</p>
+            <p>We create clothing with minimal designs and maximum impact. <br> Everything we do in Unfamiliar is meant to be remembered.</p>
+        </div>
+        <div class="col-md-3">
+            <p class="footerFont">Contact</p>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/PereyraRodrigo" class="btn-footer">More Info </a><br>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pereyrarodrigo/" class="btn-footer">Contact Us</a>
+        </div>
+        <div class="col-md-3">
+          <p class="footerFont">Socials</p>
+          <div class="col-md-4 social d-flex flex-column">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pereyrarodrigo/">Instagram</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/PereyraRodrigo">Facebook</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pereyrarodrigo/">Twitter</a>
           </div>
         </div>
       </div>
     </div>
   </footer>
 
-  <!--MODAL wishlist start-->
-  <div class="modal fade" id="wishlistModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">Add to wishlist</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body text-center">
-          You must have an Unfamiliar account and be signed in to save items to your wishlist
-        </div>
-        <div class="modal-footer d-flex flex-column">
-          <button class="button button--hyperion mb-2"><span><span>Sign in</span></span></button>
-          <button class="button button--greip"><span><span>Create an account</span></span></button>
+  
+  <div id="modalContainer"><!--Modals start-->
+
+    <!--MODAL wishlist start-->
+    <div class="modal fade" id="wishlistModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">Add to wishlist</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            You must have an Unfamiliar account and be signed in to save items to your wishlist
+          </div>
+          <div class="modal-footer d-flex flex-column">
+            <button class="button button--hyperion mb-2" data-bs-target="#WIPModal" data-bs-toggle="modal" data-bs-dismiss="modal"><span><span>Sign in</span></span></button>
+            <button class="button button--greip" data-bs-target="#WIPModal" data-bs-toggle="modal" data-bs-dismiss="modal"><span><span>Create an account</span></span></button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!--MODAL wishlist end-->
-  
+    <!--MODAL wishlist end-->
+    <!--MODAL account start-->
+    <div class="modal fade" id="accountModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">My account</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            Create an Unfamiliar account or log in to view your orders, return or adjust your personal information
+          </div>
+          <div class="modal-footer d-flex flex-column">
+            <button class="button button--hyperion mb-2" data-bs-target="#WIPModal" data-bs-toggle="modal" data-bs-dismiss="modal"><span><span>Sign in</span></span></button>
+            <button class="button button--greip" data-bs-target="#WIPModal" data-bs-toggle="modal" data-bs-dismiss="modal"><span><span>Create an account</span></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MODAL account end-->
+    <!--MODAL WorkInProgress start-->
+    <div class="modal fade" id="WIPModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">Work in progress</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center d-flex flex-column align-items-center">
+            This feature is not yet available
+            <img src="media/smile.jpg" class="smileFace" alt="Smiley face">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MODAL WorkInProgress end-->
+
+  </div><!--Modals end-->  
   
   <!--clock stuff-->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>

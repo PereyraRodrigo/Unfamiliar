@@ -169,25 +169,26 @@ body {
 }
 
 .logo-footer {
-  margin-bottom: 40px;
+  width: 180px;
 }
 
-footer {
-  color: black;
+.logo-part {
+  border-right: 1px solid grey;
+  height: 100%;
 }
 
-footer p {
-  font-size: 12px;
-  font-family: "Roboto", sans-serif;
+.footerSize {
+  font-size: 14px;
 }
 
-footer h6 {
+.footerFont {
   font-family: "Playfair Display", serif;
   margin-bottom: 40px;
   position: relative;
+  font-size: 1rem;
 }
 
-footer h6:after {
+.footerFont::after {
   position: absolute;
   content: "";
   background: grey;
@@ -197,67 +198,33 @@ footer h6:after {
   bottom: -20px;
 }
 
+footer p {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
 .btn-footer {
   color: grey;
   text-decoration: none;
   border: 1px solid;
   border-radius: 43px;
   font-size: 13px;
-  padding: 7px 30px;
+  padding: 7px 27px;
   line-height: 47px;
 }
 
 .btn-footer:hover {
   text-decoration: none;
+  color: black !important;
 }
 
-.form-footer input[type="text"] {
-  border: none;
-  border-radius: 16px 0 0 16px;
-  outline: none;
-  padding-left: 10px;
+.social a {
+  text-decoration: none !important;
+  color: gray;
 }
 
-/* ::placeholder {
-  font-size: 10px;
-  padding-left: 10px;
-  font-style: italic;
-} */
-.form-footer input[type="button"] {
-  border: none;
-  background: #232323;
-  margin-left: -5px;
-  color: #fff;
-  outline: none;
-  border-radius: 0 16px 16px 0;
-  padding: 2px 12px;
-}
-
-.social .fa {
-  color: grey;
-  font-size: 22px;
-  padding: 10px 15px;
-  background: #3c3c3c;
-}
-
-footer ul li {
-  list-style: none;
-  display: block;
-}
-
-footer ul {
-  padding-left: 0;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: grey;
-  text-decoration: none;
-}
-
-.logo-part {
-  border-right: 1px solid grey;
-  height: 100%;
+.social a:hover {
+  color: black !important;
 }
 
 .main {
@@ -315,7 +282,7 @@ footer ul li a {
 .heroimg {
   color: white;
   height: 790px;
-  background: url(../media/hero.jpg) center;
+  background: url(../media/heroimg.jpg) center;
 }
 
 .heroimgMen {
@@ -792,12 +759,16 @@ footer ul li a {
   margin: -0.5rem -0.5rem -0.5rem 0;
 }
 
-#wishlistModal .modal-footer {
+#wishlistModal .modal-footer, #accountModal .modal-footer, #WIPModal .modal-footer {
   border-top: 0 !important;
 }
 
-#wishlistModal .modal-header {
+#wishlistModal .modal-header, #accountModal .modal-header, #WIPModal .modal-header {
   border-bottom: 0 !important;
+}
+
+.smileFace {
+  width: 151px;
 }
 
 .button {
