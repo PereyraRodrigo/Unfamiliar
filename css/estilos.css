@@ -34,10 +34,9 @@ body {
   overflow-x: hidden;
 }
 
-* {
-  outline: 1px solid #ff009926;
-}
-
+/* *{
+    outline: 1px solid #ff009926;
+} */
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
     display: none;
