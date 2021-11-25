@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@font-face {
+  font-family: 'Coolvetica';
+  src: url(../media/coolvetica.ttf);
+}
+
 .fs-7 {
   font-size: 0.75rem;
 }
@@ -34,10 +39,9 @@ body {
   overflow-x: hidden;
 }
 
-* {
-  outline: 1px solid #ff009926;
-}
-
+/* *{
+    outline: 1px solid #ff009926;
+} */
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
     display: none;
@@ -179,14 +183,15 @@ body {
 }
 
 .footerSize {
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 25px;
 }
 
 .footerFont {
-  font-family: "Playfair Display", serif;
-  margin-bottom: 40px;
+  font-family: "Coolvetica", Helvetica, sans-serif;
+  margin-bottom: 21px;
   position: relative;
-  font-size: 1rem;
+  font-size: 19px;
 }
 
 .footerFont::after {
@@ -196,12 +201,12 @@ body {
   width: 12%;
   height: 1px;
   left: 0;
-  bottom: -20px;
+  bottom: -6px;
 }
 
 footer p {
   font-size: 12px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn-footer {
@@ -222,10 +227,29 @@ footer p {
 .social a {
   text-decoration: none !important;
   color: gray;
+  font-size: 14px;
 }
 
 .social a:hover {
   color: black !important;
+}
+
+@media all and (max-width: 768px) {
+  .logo-part {
+    height: 90px;
+  }
+  #footer .col-md-3 {
+    padding-bottom: 30px;
+  }
+  #footer .col-md-3:last-child {
+    padding-bottom: 0px;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .logo-footer {
+    width: 140px;
+  }
 }
 
 .main {
@@ -749,8 +773,8 @@ footer p {
 }
 
 .pushbar__checkout {
-  position: absolute;
-  right: 14px;
+  /* position: absolute; */
+  right: -86px;
 }
 
 .bi-file-plus, .bi-file-minus {
@@ -823,6 +847,18 @@ footer p {
   animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
 
+.button--hyperion::before {
+  content: '';
+  background: #000;
+  transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+  transform-origin: 100% 50%;
+}
+
+.button--hyperion:hover::before {
+  transform: scale3d(0, 1, 1);
+  transform-origin: 0% 50%;
+}
+
 @keyframes MoveUpInitial {
   to {
     transform: translate3d(0, -105%, 0);
@@ -838,16 +874,81 @@ footer p {
   }
 }
 
-.button--hyperion::before {
+#pushbarButtons .button--hyperion {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #000;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 300;
+  padding: 6px 12px;
+}
+
+#pushbarButtons .button--hyperion span {
+  display: block;
+  position: relative;
+}
+
+#pushbarButtons .button--hyperion > span {
+  overflow: hidden;
+}
+
+#pushbarButtons .button--hyperion > span > span {
+  overflow: hidden;
+  mix-blend-mode: difference;
+}
+
+#pushbarButtons .button--hyperion:hover > span > span {
+  animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+}
+
+#pushbarButtons .button--hyperion::before {
   content: '';
-  background: #000;
+  background: #fff;
   transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
   transform-origin: 100% 50%;
 }
 
-.button--hyperion:hover::before {
+#pushbarButtons .button--hyperion:hover::before {
   transform: scale3d(0, 1, 1);
   transform-origin: 0% 50%;
+}
+
+#pushbarButtons .button--greip {
+  overflow: hidden;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding: 7px 21px;
+}
+
+#pushbarButtons .button--greip span {
+  display: block;
+  position: relative;
+}
+
+#pushbarButtons .button--greip > span {
+  overflow: hidden;
+  mix-blend-mode: difference;
+}
+
+#pushbarButtons .button--greip:hover > span > span {
+  animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+}
+
+#pushbarButtons .button--greip:hover::before {
+  transition-duration: 0.3s;
+  clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
+}
+
+#pushbarButtons .button--greip::before {
+  content: '';
+  background: white;
+  width: 100%;
+  height: 100%;
+  transform-origin: 50% 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  transition: clip-path 0.2s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.2, 1);
 }
 
 .button--greip {
@@ -872,6 +973,11 @@ footer p {
   animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
 
+.button--greip:hover::before {
+  transition-duration: 0.3s;
+  clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
+}
+
 .button--greip::before {
   content: '';
   background: black;
@@ -881,11 +987,6 @@ footer p {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   transition: clip-path 0.2s;
   transition-timing-function: cubic-bezier(0.7, 0, 0.2, 1);
-}
-
-.button--greip:hover::before {
-  transition-duration: 0.3s;
-  clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
 }
 
 .title {

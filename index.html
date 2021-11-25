@@ -77,8 +77,8 @@
               USD
             </a>
             <ul class="dropdown-menu dropdown-menu-2 navbarFont" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">ARS</a></li>
-              <li><a class="dropdown-item" href="#">EUR</a></li>
+              <li><a data-bs-target="#WIPModal" data-bs-toggle="modal" data-bs-dismiss="modal" class="dropdown-item" href="#">ARS</a></li>
+              <li><a data-bs-target="#WIPModal" data-bs-toggle="modal" data-bs-dismiss="modal" class="dropdown-item" href="#">EUR</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#wishlistModal" href="#"><i class="bi bi-heart icons"></i></a></li>
@@ -192,26 +192,25 @@
         <p>Total:</p>
         <p>$<span class="pushbar__totalPrice text-light"></span></p>
     </div>
-    <div>
-      <button class="btn btn-light"><a href="#" class="text-decoration-none text-dark pushbar__clearCart">Clear Cart</a></button>
-      <button class="btn btn-dark pushbar__checkout"><a href="checkout.html" class="text-decoration-none text-light">Checkout</a></button>
+    <div id="pushbarButtons">
+      <button class="button button--hyperion pushbar__clearCart"><span><span>Clear Cart</span></span></button>
+      <a href="checkout.html"><button class="button button--greip pushbar__checkout"><span><span>Checkout</span></span></button></a>
     </div>
   </div>
 
 
-  <footer class="bg-grey py-5">
+  <footer class="bg-grey py-5" id="footer">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
           <div class="logo-part d-flex flex-column justify-content-evenly">
             <img src="media/logo.png" class="logo-footer">
-            <!-- <p class="mb-0">7637 Laurel Dr. King Of Prussia, PA 19406</p> -->
             <p class="mb-0 footerSize">Not just fashion, but <b>design.</b> <br> <i> It’s all about style.</i></p>
           </div>
         </div>
         <div class="col-md-3">
             <p class="footerFont"> About Company</p>
-            <p>We create clothing with minimal designs and maximum impact. <br> Everything we do in Unfamiliar is meant to be remembered.</p>
+            <p>We create clothing with <i>minimal</i> designs and <b>maximum</b> impact. <br> Everything we do in Unfamiliar is meant to be <i>remembered.</i></p>
         </div>
         <div class="col-md-3">
             <p class="footerFont">Contact</p>
