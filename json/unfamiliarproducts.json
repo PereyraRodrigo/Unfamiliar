@@ -2,177 +2,205 @@
     "women":[
         {
             "id": "1",
-        "price": 70,
-        "title": "Bruselas Top",
-        "image": "media/main10.jpg",
-        "image2": "media/main9.jpg"
+        "price": 20,
+        "title": "Mindset T-Shirt",
+        "image": "media/women/women2.jpg",
+        "image2": "media/women/women1.jpg"
         },
         {
             "id": "2",
-        "price": 65,
-        "title": "Mónaco Top",
-        "image": "media/main9.jpg",
-        "image2": "media/main10.jpg"
+        "price": 35,
+        "title": "Romance Ain't Dead T-Shirt",
+        "image": "media/women/women3.jpg",
+        "image2": "media/women/women4.jpg"
         },
         {
             "id": "3",
-        "price": 35,
-        "title": "Bamako Top",
-        "image": "media/main10.jpg",
-        "image2": "media/main11.jpg"
+        "price": 110,
+        "title": "1/4 Zip Jumper",
+        "image": "media/women/women5.jpg",
+        "image2": "media/women/women6.jpg"
         },
         {
             "id": "4",
-        "price": 80,
-        "title": "Abuya Top",
-        "image": "media/main11.jpg",
-        "image2": "media/main10.jpg"
+        "price": 39,
+        "title": "Aloha Sway Shirt",
+        "image": "media/women/women7.jpg",
+        "image2": "media/women/women8.jpg"
         },
         {
             "id": "5",
-        "price": 45,
-        "title": "Ámsterdam Top",
-        "image": "media/main9.jpg",
-        "image2": "media/main11.jpg"
+        "price": 55,
+        "title": "Black Service Pants",
+        "image": "media/women/women9.jpg",
+        "image2": "media/women/women10.jpg"
         },
         {
             "id": "6",
-        "price": 95,
-        "title": "Bucarest Top",
-        "image": "media/main10.jpg",
-        "image2": "media/main9.jpg"
+        "price": 40,
+        "title": "Provision Sway Shirt",
+        "image": "media/women/women11.jpg",
+        "image2": "media/women/women12.jpg"
         },
         {
             "id": "7",
-        "price": 65,
-        "title": "Moscú Top",
-        "image": "media/main11.jpg",
-        "image2": "media/main10.jpg"
+        "price": 20,
+        "title": "Desert Slub T-Shirt",
+        "image": "media/women/women13.jpg",
+        "image2": "media/women/women14.jpg"
         },
         {
             "id": "8",
-        "price": 70,
-        "title": "Castries Top",
-        "image": "media/main9.jpg",
-        "image2": "media/main11.jpg"
+        "price": 23,
+        "title": "Here and Now T-Shirt",
+        "image": "media/women/women15.jpg",
+        "image2": "media/women/women16.jpg"
+        },
+        {
+            "id": "9",
+        "price": 75,
+        "title": "Denim Chore Jacket",
+        "image": "media/women/women17.jpg",
+        "image2": "media/women/women18.jpg"
+        },
+        {
+            "id": "10",
+        "price": 15,
+        "title": "Racer Back Ribbed Vest",
+        "image": "media/women/women19.jpg",
+        "image2": "media/women/women20.jpg"
+        },
+        {
+            "id": "11",
+        "price": 40,
+        "title": "Denim Service Pants",
+        "image": "media/women/women21.jpg",
+        "image2": "media/women/women22.jpg"
+        },
+        {
+            "id": "12",
+        "price": 17,
+        "title": "Athletic T-Shirt",
+        "image": "media/women/women23.jpg",
+        "image2": "media/women/women24.jpg"
         }
     ],
 
     "men":[
         {
-            "id": "9",
-        "price": 65,
-        "title": "Madrid Shirt",
-        "image": "media/main5.jpg",
-        "image2": "media/main6.jpg"
-        },
-        {
-            "id": "10",
-        "price": 70,
-        "title": "Malaga Shirt",
-        "image": "media/main6.jpg",
-        "image2": "media/main5.jpg"
-        },
-        {
-            "id": "11",
-        "price": 55,
-        "title": "Kabul Shirt",
-        "image": "media/main7.jpg",
-        "image2": "media/main8.jpg"
-        },
-        {
-            "id": "12",
-        "price": 40,
-        "title": "Berlin Shirt",
-        "image": "media/main8.jpg",
-        "image2": "media/main7.jpg"
-        },
-        {
             "id": "13",
-        "price": 35,
-        "title": "Buenos Aires Shirt",
-        "image": "media/main5.jpg",
-        "image2": "media/main8.jpg"
+        "price": 70,
+        "title": "Zip Pullover Progress",
+        "image": "media/men/men1.jpg",
+        "image2": "media/men/men2.jpg"
         },
         {
             "id": "14",
-        "price": 85,
-        "title": "Erevan Shirt",
-        "image": "media/main8.jpg",
-        "image2": "media/main5.jpg"
+        "price": 120,
+        "title": "Mindset Navy Jacket",
+        "image": "media/men/men3.jpg",
+        "image2": "media/men/men4.jpg"
         },
         {
             "id": "15",
-        "price": 75,
-        "title": "Bruselas Shirt",
-        "image": "media/main6.jpg",
-        "image2": "media/main7.jpg"
+        "price": 25,
+        "title": "Aloha T-Shirt",
+        "image": "media/men/men5.jpg",
+        "image2": "media/men/men6.jpg"
         },
         {
             "id": "16",
-        "price": 70,
-        "title": "Minsk Shirt",
-        "image": "media/main7.jpg",
-        "image2": "media/main5.jpg"
+        "price": 72,
+        "title": "Pullover Hoodie",
+        "image": "media/men/men7.jpg",
+        "image2": "media/men/men8.jpg"
         },
         {
             "id": "17",
-        "price": 60,
-        "title": "Brasilia Shirt",
-        "image": "media/main8.jpg",
-        "image2": "media/main7.jpg"
+        "price": 25,
+        "title": "Purposeful Living T-Shirt",
+        "image": "media/men/men9.jpg",
+        "image2": "media/men/men10.jpg"
         },
         {
             "id": "18",
-        "price": 65,
-        "title": "Doha Shirt",
-        "image": "media/main7.jpg",
-        "image2": "media/main8.jpg"
+        "price": 85,
+        "title": "Service Fatigue Shorts",
+        "image": "media/men/men11.jpg",
+        "image2": "media/men/men12.jpg"
         },
         {
             "id": "19",
-        "price": 90,
-        "title": "Pekin Shirt",
-        "image": "media/main7.jpg",
-        "image2": "media/main6.jpg"
+        "price": 110,
+        "title": "A-2 Deck Jackett",
+        "image": "media/men/men13.jpg",
+        "image2": "media/men/men14.jpg"
         },
         {
             "id": "20",
-        "price": 85,
-        "title": "Copenhague Shirt",
-        "image": "media/main5.jpg",
-        "image2": "media/main7.jpg"
+        "price": 55,
+        "title": "Paradise Hoodie",
+        "image": "media/men/men15.jpg",
+        "image2": "media/men/men16.jpg"
+        },
+        {
+            "id": "21",
+        "price": 60,
+        "title": "Crewneck Sweater",
+        "image": "media/men/men17.jpg",
+        "image2": "media/men/men18.jpg"
+        },
+        {
+            "id": "22",
+        "price": 25,
+        "title": "Cobra T-Shirt",
+        "image": "media/men/men19.jpg",
+        "image2": "media/men/men20.jpg"
+        },
+        {
+            "id": "23",
+        "price": 15,
+        "title": "Home From Home T-Shirt",
+        "image": "media/men/men21.jpg",
+        "image2": "media/men/men22.jpg"
+        },
+        {
+            "id": "24",
+        "price": 45,
+        "title": "Selvedge Denim Jeans",
+        "image": "media/men/men23.jpg",
+        "image2": "media/men/men24.jpg"
         }
     ],
 
     "newArrivals":[
         {
-            "id": "21",
-        "price": 35,
-        "title": "Nueva Delhi Shirt",
-        "image": "media/main5.jpg",
-        "image2": "media/main7.jpg"
-        },
-        {
-            "id": "22",
-        "price": 40,
-        "title": "Bagdad Shirt",
-        "image": "media/main6.jpg",
-        "image2": "media/main7.jpg"
-        },
-        {
-            "id": "23",
+            "id": "25",
         "price": 55,
-        "title": "Nairobi Shirt",
-        "image": "media/main7.jpg",
-        "image2": "media/main6.jpg"
+        "title": "Paradise Hoodie",
+        "image": "media/men/men15.jpg",
+        "image2": "media/men/men16.jpg"
         },
         {
-            "id": "24",
-        "price": 70,
-        "title": "Rabat Shirt",
-        "image": "media/main5.jpg",
-        "image2": "media/main7.jpg"
+            "id": "26",
+        "price": 110,
+        "title": "1/4 Zip Jumper",
+        "image": "media/women/women5.jpg",
+        "image2": "media/women/women6.jpg"
+        },
+        {
+            "id": "28",
+        "price": 25,
+        "title": "Cobra T-Shirt",
+        "image": "media/men/men19.jpg",
+        "image2": "media/men/men20.jpg"
+        },
+        {
+            "id": "27",
+        "price": 15,
+        "title": "Racer Back Ribbed Vest",
+        "image": "media/women/women19.jpg",
+        "image2": "media/women/women20.jpg"
         }
     ]    
 }

@@ -125,6 +125,10 @@ body {
   font-size: 13px;
 }
 
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: black;
+}
+
 @media (max-width: 576px) {
   .customNavbar {
     display: flex !important;
@@ -430,7 +434,8 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  /* gap: 20px; */
+  gap: 0px;
 }
 
 .containerDisplay img {
@@ -731,6 +736,7 @@ footer p {
   flex-direction: column;
   justify-content: space-between;
   min-width: 165px;
+  max-width: 165px;
 }
 
 .pushbar__name {
