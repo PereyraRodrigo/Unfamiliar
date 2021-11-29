@@ -84,7 +84,10 @@
 	}
 }
 //hyperion button
-
+#pushbarButtons{
+	display: flex;
+	justify-content: space-between;
+}
 //hyperion pushbar button
 #pushbarButtons .button--hyperion {
 	font-family: "Poppins", sans-serif;

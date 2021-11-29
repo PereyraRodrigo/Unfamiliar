@@ -118,7 +118,7 @@ body {
   position: absolute;
   top: 6px;
   right: 12px;
-  background: red;
+  background: black;
   padding: 0 3px;
   border-radius: 30%;
   color: white;
@@ -325,6 +325,12 @@ footer p {
   background: url(../media/herowomen.jpg) center;
 }
 
+@media all and (max-width: 576px) {
+  .main {
+    height: 1350px;
+  }
+}
+
 .clock {
   width: 650px;
   position: absolute;
@@ -396,7 +402,7 @@ footer p {
 
 .parallax {
   /* The image used */
-  background-image: url("../media/main2.jpg");
+  background-image: url("../media/banner.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -408,8 +414,10 @@ footer p {
 }
 
 .collections {
-  font-size: 62px;
-  padding-top: 135px;
+  font-size: 60px;
+  /* padding-top: 135px; */
+  padding-top: 95px;
+  font-family: 'Coolvetica','sans-serif';
 }
 
 .temp {
@@ -419,7 +427,8 @@ footer p {
 }
 
 .tempCollections {
-  height: 450px;
+  /* height: 450px; */
+  height: 410px;
   background-color: white;
 }
 
@@ -584,7 +593,7 @@ footer p {
 
 .product-grid .product-links li a:hover {
   color: #fff;
-  background: #ff008f;
+  background: #000;
 }
 
 .product-grid .product-links li a:before, .product-grid .product-links li a:after {
@@ -634,13 +643,13 @@ footer p {
 }
 
 .product-grid .title a {
-  color: #484848;
+  color: #6a6a6a;
   transition: all 0.3s ease 0s;
   text-decoration: none;
 }
 
 .product-grid .title a:hover {
-  color: #ff008f;
+  color: black;
 }
 
 .product-grid .price {
@@ -671,7 +680,7 @@ footer p {
 
 .product-grid .add-to-cart:hover {
   color: #fff;
-  background: #ff008f;
+  background: #000;
 }
 
 .product-grid:hover .add-to-cart {
@@ -780,7 +789,7 @@ footer p {
 
 .pushbar__checkout {
   /* position: absolute; */
-  right: -86px;
+  /* right: -86px; */
 }
 
 .bi-file-plus, .bi-file-minus {
@@ -878,6 +887,11 @@ footer p {
   to {
     transform: translate3d(0, 0, 0);
   }
+}
+
+#pushbarButtons {
+  display: flex;
+  justify-content: space-between;
 }
 
 #pushbarButtons .button--hyperion {

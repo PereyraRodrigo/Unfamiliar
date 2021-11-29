@@ -54,7 +54,7 @@
                 transition: all 0.3s ease 0s;
                 &:hover{
                     color: #fff;
-                    background: #ff008f;
+                    background: #000;
                 }
                 &:before, &:after{
                     content: attr(data-tip);
@@ -98,11 +98,11 @@
         text-transform: capitalize;
         margin: 0 0 7px;
         a{
-            color: #484848;
+            color: #6a6a6a;
             transition: all 0.3s ease 0s;
             text-decoration: none;
             &:hover{
-                color: #ff008f;
+                color: black;
             }
         }
     }
@@ -131,7 +131,7 @@
         text-decoration: none;
         &:hover{
             color: #fff;
-            background: #ff008f;
+            background: #000;
         }
     }
     &:hover{

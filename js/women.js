@@ -40,7 +40,7 @@ class UI{
             <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
                 <div class="product-grid">
                     <div class="product-image">
-                        <a href="#" class="image">
+                        <a class="image">
                             <img class="pic-1" src="${product.image}">
                             <img class="pic-2" src="${product.image2}">
                         </a>
