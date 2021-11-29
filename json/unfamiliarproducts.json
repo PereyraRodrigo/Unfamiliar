@@ -182,11 +182,11 @@
         "image2": "media/men/men16.jpg"
         },
         {
-            "id": "26",
-        "price": 110,
-        "title": "1/4 Zip Jumper",
-        "image": "media/women/women5.jpg",
-        "image2": "media/women/women6.jpg"
+            "id": "26",        
+        "price": 15,
+        "title": "Mindset T-Shirt",
+        "image": "media/women/women2.jpg",
+        "image2": "media/women/women1.jpg"        
         },
         {
             "id": "28",
@@ -197,10 +197,10 @@
         },
         {
             "id": "27",
-        "price": 15,
-        "title": "Racer Back Ribbed Vest",
-        "image": "media/women/women19.jpg",
-        "image2": "media/women/women20.jpg"
+        "price": 110,
+        "title": "1/4 Zip Jumper",
+        "image": "media/women/women5.jpg",
+        "image2": "media/women/women6.jpg"
         }
     ]    
 }
