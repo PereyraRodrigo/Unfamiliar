@@ -5,7 +5,7 @@ $(document).ready(function () {
     var currentDate = new Date();
 
     // Target future date/24 hour time/Timezone
-    var targetDate = moment.tz("2022-02-10 23:59", "Australia/Sydney");
+    var targetDate = moment.tz("2022-09-29 23:59", "Australia/Sydney");
 
     // Calculate the difference in seconds between the future and current date
     var diff = targetDate / 1000 - currentDate.getTime() / 1000;
@@ -15,7 +15,7 @@ $(document).ready(function () {
         clock = $(".clock").FlipClock(0, {
             clockFace: "DailyCounter",
             countdown: true,
-            autostart: false
+            autostart: true
         });
         console.log("Date has already passed!")
 

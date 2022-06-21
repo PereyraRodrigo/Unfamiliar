@@ -632,13 +632,14 @@ footer p {
   margin: 0 0 7px;
 }
 
-.product-grid .title a {
+.product-grid .title p {
   color: #6a6a6a;
   transition: all 0.3s ease 0s;
   text-decoration: none;
+  cursor: context-menu;
 }
 
-.product-grid .title a:hover {
+.product-grid .title p:hover {
   color: black;
 }
 
@@ -646,6 +647,7 @@ footer p {
   color: #242424;
   font-size: 14px;
   font-weight: 700;
+  cursor: context-menu;
 }
 
 .product-grid .add-to-cart {

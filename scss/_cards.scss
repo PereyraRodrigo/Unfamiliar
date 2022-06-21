@@ -97,10 +97,11 @@
         font-weight: 700;
         text-transform: capitalize;
         margin: 0 0 7px;
-        a{
+        p{
             color: #6a6a6a;
             transition: all 0.3s ease 0s;
             text-decoration: none;
+            cursor: context-menu;
             &:hover{
                 color: black;
             }
@@ -110,6 +111,7 @@
         color: #242424;
         font-size: 14px;
         font-weight: 700;
+        cursor: context-menu
     }
     .add-to-cart{
         color: #323232;

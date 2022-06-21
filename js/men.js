@@ -50,7 +50,7 @@ class UI{
                         <button data-id="${product.id}" class="add-to-cart" href="#">Add to cart</button>
                     </div>
                     <div class="product-content">
-                        <h3 class="title"><a href="#">${product.title}</a></h3>
+                        <h3 class="title"><p>${product.title}</p></h3>
                         <div class="price">$${product.price}</div>
                     </div>
                 </div>
